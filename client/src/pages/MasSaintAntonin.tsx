@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight, CalendarDays, Clock3, Instagram, MapPin, Menu, Phone, Utensils, X } from "lucide-react";
 
-const dishPhoto = "/manus-storage/gnocchi-public_a5fe2954.jpg";
+const dishPhoto = "/manus-storage/gnocchi-public_fb13ea87.jpg";
 const phone = "05 61 60 62 57";
 const tel = `tel:${phone.replaceAll(" ", "")}`;
 
