@@ -2,6 +2,10 @@
 
 Site vitrine de **BV SCOP**, entreprise coopérative (SCOP) créée en 1992 à Pamiers, en Ariège, spécialisée dans l'électricité, les réseaux et les énergies renouvelables.
 
+## Lien du site
+
+https://nooby09.github.io/bv-scop-pamiers/ *(déployé via GitHub Pages)*
+
 ## Stack
 
 - React 19 + TypeScript
