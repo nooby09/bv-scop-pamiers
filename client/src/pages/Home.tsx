@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, Check, Mail, MapPin, Menu, Phone, X } from "lucide-react";
 
-const logo = "/manus-storage/bv-scop-logo_878b7c87.webp";
 const officePhoto = "/manus-storage/bv-scop-presse_fb16decf.jpg";
 const phone = "05 34 01 31 00";
 const email = "bvscop@bvscop.fr";
@@ -31,7 +30,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-[#dce2dc] bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 lg:px-8">
           <a href="#accueil" onClick={closeMenu} aria-label="BV SCOP — accueil" className="flex items-center">
-            <img src={logo} alt="BV SCOP" className="h-[62px] w-[76px] object-contain object-center sm:h-[70px] sm:w-[84px]" />
+            <span className="text-[22px] font-black tracking-[-0.06em] text-[#1644c5] sm:text-[25px]">BV <span className="text-[#75ae0d]">SCOP</span></span>
           </a>
           <nav className="hidden items-center gap-8 text-sm font-semibold text-[#435059] md:flex">
             <a href="#activites" className="transition-colors hover:text-[#1644c5]">Activités</a>
