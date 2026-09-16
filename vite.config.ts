@@ -4,7 +4,7 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: './',
+  base: process.env.NODE_ENV === "production" ? "/bv-scop-pamiers/" : "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
