@@ -66,6 +66,10 @@ export default defineConfig({
     port: 3000,
     strictPort: false,
     host: true,
-    allowedHosts: ["localhost", "127.0.0.1"],
+    allowedHosts: [
+      "localhost",
+      "127.0.0.1",
+      "3000-i3akqvl7kge1xi8rsd1lt-429c3f27.us1.manus.computer",
+    ],
   },
 });
